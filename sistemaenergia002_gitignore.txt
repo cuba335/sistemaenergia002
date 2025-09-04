@@ -1,0 +1,73 @@
+# General
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.orig
+*.rej
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+ehthumbs.db
+
+# Archives
+*.zip
+*.tar
+*.gz
+*.7z
+
+# IDEs/editors
+.vscode/
+.idea/
+*.iml
+
+# Node / JavaScript
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.cache/
+.next/
+.nuxt/
+coverage/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+ENV/
+.mypy_cache/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# PHP / Composer
+vendor/
+# Laravel / Symfony
+.env
+.env.*
+storage/
+bootstrap/cache/
+
+# Env files
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
